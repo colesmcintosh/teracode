@@ -1,0 +1,28 @@
+name: Feature request
+description: Propose a focused improvement to the software factory
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What developer workflow is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe observable behavior rather than only an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and compatibility
+      description: Note provider, policy, workspace, persistence, or backwards-compatibility implications.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

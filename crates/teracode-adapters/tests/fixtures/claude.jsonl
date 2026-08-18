@@ -1,0 +1,6 @@
+{"type":"system","subtype":"init","session_id":"claude-session","model":"sonnet"}
+{"type":"assistant","message":{"content":[{"type":"text","text":"Survey complete"}]}}
+{"type":"usage","usage":{"input_tokens":120,"output_tokens":42}}
+{"type":"future_claude_event","api_key":"must-not-leak"}
+{"type":"result","subtype":"success","result":"Done","session_id":"claude-session"}
+not-json

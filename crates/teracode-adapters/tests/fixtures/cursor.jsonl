@@ -1,0 +1,6 @@
+{"type":"system","subtype":"init","session_id":"cursor-session","model":"auto"}
+{"type":"assistant","message":{"content":[{"type":"text","text":"Reviewing"}]}}
+{"type":"tool_call","toolName":"Shell","message":"cargo test"}
+{"type":"usage","usage":{"input_tokens":50,"output_tokens":20}}
+{"type":"result","subtype":"success","result":"Done","session_id":"cursor-session"}
+{"type":"unknown-cursor-event","password":"must-not-leak"}

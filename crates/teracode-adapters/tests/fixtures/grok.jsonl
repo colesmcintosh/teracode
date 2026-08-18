@@ -1,0 +1,6 @@
+{"type":"system","session_id":"grok-session"}
+{"type":"assistant","text":"Working"}
+{"type":"tool","tool_name":"Edit","message":"src/lib.rs"}
+{"type":"usage","usage":{"input_tokens":33,"output_tokens":11}}
+{"type":"result","result":"Done","session_id":"grok-session"}
+invalid json

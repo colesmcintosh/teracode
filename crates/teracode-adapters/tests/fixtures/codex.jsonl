@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"codex-session"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"type":"agent_message","text":"Implemented change"}}
+{"type":"usage","usage":{"input_tokens":80,"output_tokens":24}}
+{"type":"turn.completed","thread_id":"codex-session","summary":"Done"}
+{"type":"future.codex","credential":"must-not-leak"}

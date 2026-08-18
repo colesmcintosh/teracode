@@ -1,0 +1,44 @@
+[workspace]
+members = ["crates/teracode", "crates/teracode-core", "crates/teracode-adapters"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["TeraCode contributors"]
+repository = "https://github.com/colesmcintosh/teracode"
+
+[workspace.dependencies]
+async-trait = "0.1.89"
+clap = { version = "4.5.48", features = ["derive"] }
+crossterm = "0.29.0"
+directories = "6.0.0"
+nix = { version = "0.30.1", features = ["process", "signal"] }
+ratatui = "0.30.0"
+rusqlite = { version = "0.32.1", features = ["bundled"] }
+schemars = { version = "1.0.4", features = ["uuid1"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+tempfile = "3.23.0"
+thiserror = "2.0.17"
+tokio = { version = "1.47.1", features = ["full"] }
+tokio-util = "0.7.16"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
+uuid = { version = "1.18.1", features = ["v4", "serde"] }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+must_use_candidate = "allow"
+doc_markdown = "allow"
+implicit_hasher = "allow"
+missing_errors_doc = "allow"
+struct_excessive_bools = "allow"
+too_many_lines = "allow"
+unnested_or_patterns = "allow"

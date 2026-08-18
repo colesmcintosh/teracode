@@ -1,0 +1,27 @@
+[package]
+name = "teracode-adapters"
+description = "Coding-agent CLI adapters and process supervision for TeraCode"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+repository.workspace = true
+publish = false
+
+[dependencies]
+async-trait.workspace = true
+nix.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+teracode-core = { path = "../teracode-core" }
+thiserror.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+tracing.workspace = true
+uuid.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+
+[lints]
+workspace = true

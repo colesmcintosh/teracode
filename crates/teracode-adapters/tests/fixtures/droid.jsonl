@@ -1,0 +1,6 @@
+{"type":"system","subtype":"init","session_id":"droid-session"}
+{"type":"assistant","text":"Inspecting"}
+{"type":"tool_activity","tool_name":"ApplyPatch"}
+{"type":"usage","usage":{"input_tokens":71,"output_tokens":19}}
+{"type":"result","subtype":"success","is_error":false,"result":"Done","session_id":"droid-session"}
+{"type":"result","subtype":"error","is_error":true,"result":"Example failure"}

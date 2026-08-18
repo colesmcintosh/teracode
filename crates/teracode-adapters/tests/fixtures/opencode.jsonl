@@ -1,0 +1,6 @@
+{"type":"system","session_id":"opencode-session"}
+{"type":"text","text":"Checking files"}
+{"type":"tool_use","tool_name":"write","input":"src/main.rs"}
+{"type":"usage","usage":{"inputTokens":40,"outputTokens":12}}
+{"type":"result","result":"Done","sessionId":"opencode-session"}
+partial {
